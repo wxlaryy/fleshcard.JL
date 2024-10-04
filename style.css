@@ -48,7 +48,7 @@ body{
     margin-top: 4rem;
 }
 
-.cartao_conteudo_resposta p{
+.cartao_conteudo_pergunta p{
     color:var(--text-color);
     font-weight: 500;
 }
@@ -99,5 +99,20 @@ footer p{
     font-size: 0.6rem;
     margin-top: 0.5rem;
 }
+
+@media (maxx-width: 560px) {
+
+    body{
+        background:url('img/bg-mobile.webp'), no-repeat cover;
+    }
+
+    .cartao{
+        flex: 1 0 calc(100% - 1rem)
+    }
+
+    
+    }
+}
+
 
 
