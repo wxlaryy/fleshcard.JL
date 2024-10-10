@@ -5,7 +5,7 @@
     --card-back-color; #00F4BF;
 }
 body{
-    background: url('img/bg-desktop.webp');
+    background: url("img/bg-desktop.webp");
     font-family: Bai Jamjuree;
 }
 #container{
