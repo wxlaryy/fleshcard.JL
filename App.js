@@ -5,9 +5,9 @@ function criaCartao(categoria, pergunta, resposta) {
 
     cartao.innerHTML =
     <div class="cartao__conteudo">
-        <h3>${pergunta}</h3>
+        <h3>${categoria}</h3>
         <div class="cartao__conteudo__pergunta">
-            <p>${pergunta}</p>
+            <p>${resposta}</p>
         </div>
         <div class ="cartao__conteudo__resposta">
             <p>${resposta}</p>
@@ -25,11 +25,6 @@ function criaCartao(categoria, pergunta, resposta) {
     cartao.addEventListener('click' , viraCartao)
 
 
-
-    container.appendChild(cartao)
-
-}
-    
 
     container.appendChild(cartao)
 
